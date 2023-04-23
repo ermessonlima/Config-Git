@@ -8,7 +8,7 @@
 
 	c = !git add --all && git commit -m
   
-	s = !git status -status
+	s = !git status -s
   
 	l = !git log --pretty=format:'%C(blue)%h%C(red)%d %C(white)%s - %C(cyan)%cn, %(green)%cr'
 	amend = !git add --all && git commit --amend --no-edit
